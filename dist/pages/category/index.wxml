@@ -1,0 +1,13 @@
+<block wx:if="{{$taroCompReady}}">
+    <at-tabs compid="{{$compid__5}}">
+        <at-tabs-pane wx:for="{{loopArray2}}" wx:for-item="item" wx:for-index="index" compid="{{item.$compid__4}}">
+            <view class="list">
+                <view class="list-item" wx:for="{{item.$anonymousCallee__1}}" wx:for-item="m" wx:for-index="n">
+                    <at-card compid="{{m.$compid__3}}">
+                        <rich-text nodes="{{m.$loopState__temp4}}"></rich-text>
+                    </at-card>
+                </view>
+            </view>
+        </at-tabs-pane>
+    </at-tabs>
+</block>

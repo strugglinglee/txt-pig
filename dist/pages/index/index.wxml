@@ -1,0 +1,20 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index">
+        <view class="main">
+            <rich-text nodes="{{activeSentence.text || '暂无内容'}}"></rich-text>
+            <block wx:if="{{activeSentence.author || activeSentence.origin}}">
+                <view class="main-bottom">--{{activeSentence.author}}
+                    <block wx:if="{{activeSentence.origin}}"><text>《{{activeSentence.origin}}》</text>
+                    </block>
+                </view>
+            </block>
+        </view>
+        <view class="btns">
+            <block wx:if="{{preList.length > 1}}">
+                <image class="img" bindtap="backHandle" src="{{anonymousState__temp}}"></image>
+            </block>
+            <image class="copy-img" bindtap="copyHandle" src="{{anonymousState__temp2}}"></image>
+            <image class="img" bindtap="nextHandle" src="{{anonymousState__temp3}}"></image>
+        </view>
+    </view>
+</block>

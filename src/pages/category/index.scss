@@ -1,0 +1,10 @@
+@import "~taro-ui/dist/style/components/tabs.scss";
+@import "~taro-ui/dist/style/components/card.scss";
+
+
+.list-item {
+  margin-top: 20px;
+/*     &:not(:last-child){
+      margin-bottom: 20px !important;
+    } */
+}
