@@ -1,4 +1,35 @@
 <block wx:if="{{$taroCompReady}}">
-    <view class="index"><text>我的</text>
-    </view>
+    <view class="mine">
+        <view class="mine-top">
+            <block>
+                <block wx:if="{{userInfo.avatarUrl}}">
+                    <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+                </block>
+                <block wx:else>
+                    <image class="avatar" src="{{anonymousState__temp}}"></image>
+                </block>
+            </block>
+            <block>
+                <block wx:if="{{userInfo.nickName}}">
+                    <view class="info"><text class="info-top">{{userInfo.nickName}}</text><text class="info-bottom">{{userInfo.province}}<block wx:if="{{userInfo.city}}"><text class="city">,{{userInfo.city}}</text>
+                </block>
+                </text>
+                </view>
+            </block>
+            <block wx:else>
+                <view>
+                    <button class="user-button" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">登录 / 注册</button>
+                </view>
+            </block>
+</block>
+</view>
+<view class="mine-list">
+    <button open-type="{{item.$original.openType}}" class="mine-list-item" bindtap="anonymousFunc0" wx:for="{{loopArray4}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+        <view class="left">
+            <image class="icon" src="{{item.$loopState__temp3}}"></image><text class="text">{{item.$original.text}}</text>
+        </view>
+        <view class="right">{{'>'}}</view>
+    </button>
+</view>
+</view>
 </block>

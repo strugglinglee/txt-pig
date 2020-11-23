@@ -1,0 +1,16 @@
+@import "~taro-ui/dist/style/components/noticebar.scss";
+.container {
+  padding: 20px;
+
+  view{
+    margin: 25rpx 30rpx 0;
+    color: #666;
+    font-size: 28rpx;
+    line-height: 42rpx;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+}

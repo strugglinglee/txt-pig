@@ -38,7 +38,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var categorys = [{ title: '小治愈', type: 'zy', list: _index.zyList }, { title: '打工人', type: 'dgr', list: _index.dgrList }, { title: '网抑云', type: 'wyy', list: _index.wyyList }, { title: '丧文化', type: 'lone', list: _index.loneList }, { title: '晚安宝贝', type: 'night', list: _index.nightList }, { title: '可可爱爱', type: 'cute', list: _index.cuteList }];
+var categorys = [{ title: '小治愈', type: 'zy', list: _index.zyList }, { title: '彩虹屁', type: 'chp', list: _index.chpList }, { title: '网抑云', type: 'wyy', list: _index.wyyList }, { title: '打工人', type: 'dgr', list: _index.dgrList }, { title: '丧文化', type: 'lone', list: _index.loneList }, { title: '晚安宝贝', type: 'night', list: _index.nightList }, { title: '可可爱爱', type: 'cute', list: _index.cuteList }];
 
 var Index = (_temp2 = _class = function (_BaseComponent) {
   _inherits(Index, _BaseComponent);
@@ -54,9 +54,9 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray2", "$compid__5", "categorys", "current", "activeType"], _this.config = {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray7", "$compid__9", "categorys", "current", "activeType"], _this.config = {
       navigationBarTitleText: '探索'
-    }, _this.anonymousFunc0Map = {}, _this.customComponents = ["AtTabs", "AtTabsPane", "AtCard"], _temp), _possibleConstructorReturn(_this, _ret);
+    }, _this.anonymousFunc0Map = {}, _this.customComponents = ["AtTabs", "AtTabsPane"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Index, [{
@@ -73,13 +73,14 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
 
       this.state = {
         current: 0,
-        activeType: 'cute'
+        activeType: 'zy'
       };
       this.$$refs = new _taroWeapp2.default.RefsArray();
     }
   }, {
     key: "handleClick",
     value: function handleClick(value) {
+      //scrollTo(0)
       this.setState({
         current: value,
         activeType: value
@@ -128,6 +129,14 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       });
     }
   }, {
+    key: "onShareAppMessage",
+    value: function onShareAppMessage() {
+      return {
+        title: "\u6B22\u8FCE\u8FDB\u5165\u6587\u6848\u732A\u732A\u7684\u795E\u5947\u4E16\u754C",
+        path: "/pages/index/index"
+      };
+    }
+  }, {
     key: "_createData",
     value: function _createData() {
       var _this2 = this;
@@ -138,71 +147,63 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__5"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__9"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__5 = _genCompid2[0],
-          $compid__5 = _genCompid2[1];
+          $prevCompid__9 = _genCompid2[0],
+          $compid__9 = _genCompid2[1];
 
-      var loopArray2 = categorys.map(function (item, index) {
+      var current = this.__state.current;
+
+      var loopArray7 = categorys.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
-        var $anonymousCallee__1 = item.$original.list.map(function (m, n) {
+        var $anonymousCallee__3 = item.$original.list.map(function (m, n) {
           m = {
             $original: (0, _taroWeapp.internal_get_original)(m)
           };
-          var $loopState__temp2 = m.$original.author + (m.$original.origin ? "\u300A" + m.$original.origin + "\u300B" : '');
-          var _$indexKey = "dzzzz" + index + "-" + n;
+
+          var $loopState__temp2 = __webpack_require__(/*! ../../icons/mine-s.png */ "./src/icons/mine-s.png");
+
+          var _$indexKey = "izzzz" + index + "-" + n;
 
           _this2.anonymousFunc0Map[_$indexKey] = function () {
             _this2.copyHandle(m.$original.text);
           };
 
           var $loopState__temp4 = m.$original.text.replace(/\/n/g, '<br />') || '暂无内容';
-
-          var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "ezzzzzzzzz" + index + "-" + n, true),
-              _genCompid4 = _slicedToArray(_genCompid3, 2),
-              $prevCompid__3 = _genCompid4[0],
-              $compid__3 = _genCompid4[1];
-
-          _taroWeapp.propsManager.set({
-            "thumb": "http://www.logoquan.com/upload/list/20180421/logoquan15259400209.PNG",
-            "note": $loopState__temp2,
-            "onClick": _this2.anonymousFunc0.bind(_this2, _$indexKey)
-          }, $compid__3, $prevCompid__3);
           return {
             $loopState__temp2: $loopState__temp2,
             _$indexKey: _$indexKey,
             $loopState__temp4: $loopState__temp4,
-            $compid__3: $compid__3,
             $original: m.$original
           };
         });
 
-        var _genCompid5 = (0, _taroWeapp.genCompid)(__prefix + "fzzzzzzzzz" + index, true),
-            _genCompid6 = _slicedToArray(_genCompid5, 2),
-            $prevCompid__4 = _genCompid6[0],
-            $compid__4 = _genCompid6[1];
+        var _genCompid3 = (0, _taroWeapp.genCompid)(__prefix + "jzzzzzzzzz" + index, true),
+            _genCompid4 = _slicedToArray(_genCompid3, 2),
+            $prevCompid__8 = _genCompid4[0],
+            $compid__8 = _genCompid4[1];
 
         _taroWeapp.propsManager.set({
           "current": index,
           "index": index
-        }, $compid__4, $prevCompid__4);
+        }, $compid__8, $prevCompid__8);
         return {
-          $anonymousCallee__1: $anonymousCallee__1,
-          $compid__4: $compid__4,
+          $anonymousCallee__3: $anonymousCallee__3,
+          $compid__8: $compid__8,
           $original: item.$original
         };
       });
       _taroWeapp.propsManager.set({
-        "current": this.__state.current,
+        "current": current,
         "scroll": true,
         "tabList": categorys,
         "onClick": this.handleClick.bind(this)
-      }, $compid__5, $prevCompid__5);
+      }, $compid__9, $prevCompid__9);
       Object.assign(this.__state, {
-        loopArray2: loopArray2,
-        $compid__5: $compid__5,
+        loopArray7: loopArray7,
+        $compid__9: $compid__9,
         categorys: categorys
       });
       return this.__state;
@@ -223,7 +224,7 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
   }]);
 
   return Index;
-}(_taroWeapp.Component), _class.$$events = [], _class.$$componentPath = "pages/category/index", _temp2);
+}(_taroWeapp.Component), _class.$$events = ["anonymousFunc0"], _class.$$componentPath = "pages/category/index", _temp2);
 exports.default = Index;
 
 Component(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createComponent(Index, true));

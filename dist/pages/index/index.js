@@ -158,6 +158,14 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       });
     }
   }, {
+    key: "onShareAppMessage",
+    value: function onShareAppMessage() {
+      return {
+        title: "\u6B22\u8FCE\u8FDB\u5165\u6587\u6848\u732A\u732A\u7684\u795E\u5947\u4E16\u754C",
+        path: "/pages/index/index"
+      };
+    }
+  }, {
     key: "_createData",
     value: function _createData() {
       this.__state = arguments[0] || this.state || {};

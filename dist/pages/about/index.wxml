@@ -1,0 +1,14 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="about">
+        <at-noticebar compid="{{$compid__3}}">文案猪猪正在成长阶段，欢迎各位热爱文字，需要文字的主子猪们热情投稿！</at-noticebar>
+        <view class="container">
+            <view>
+                <image class="avatar" src="{{anonymousState__temp}}"></image>
+            </view>
+            <view>你好哇，主子猪～</view>
+            <view>我是一匹来自南方的猪，我叫文案猪猪，之所以叫猪猪，绝对不是因为卖萌，而是一只猪已经不够形容我的聪明(不是chun,众所周知,pig is the most clever animal in the world)。</view>
+            <view>我也是一只初生的萌猪，如果你恰好偶遇我，请你一定要温柔的对待我，因为我正在勇敢的茁壮成长，第一次做猪，难免有做的不好的地方，如果主子猪您有好的建议，请您给猪猪留言，猪猪想给你一个好的猪猪，在你需要时挺身而出。</view>
+            <view>这绝对不是一个冰冷的机器，而是热爱文字的温暖猪在用心经营。没有什么原因，就只是想用心做好一件事。如果你也同样喜欢文字，常常被文字打动，也可以留言和我交流哦，说不定哪一天您留下的文字就会成为文案猪猪的珍宝，文案猪猪灰常灰常期待您的参与！</view>
+        </view>
+    </view>
+</block>

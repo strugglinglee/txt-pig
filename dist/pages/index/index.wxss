@@ -5,14 +5,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #89c5ff; }
-  .index .btns {
+  background-image: linear-gradient(-45deg, #fff, #efb336, #7dc5eb, #e8989a, #f6ef37, #db639b);
+  background-size: 400% 400%;
+  -webkit-animation: gradientBG 5s ease infinite;
+          animation: gradientBG 5s ease infinite; }
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+.index .btns {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 70%;
     margin-top: 20rpx; }
-  .index .main {
+.index .main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,14 +39,18 @@
     height: 70%;
     padding: 30rpx;
     border-radius: 20rpx;
-    background-color: #fff; }
-  .index .img {
+    color: #666;
+    background-color: rgba(255, 255, 255, 0.2); }
+.index .img {
     width: 100rpx;
     height: 100rpx; }
-  .index .img:active {
+.index .img:active {
       opacity: 0.8; }
-  .index .copy-img {
+.index .main-bottom {
+    width: 100%;
+    text-align: right; }
+.index .copy-img {
     width: 80rpx;
     height: 80rpx; }
-  .index .copy-img:active {
+.index .copy-img:active {
       opacity: 0.8; }

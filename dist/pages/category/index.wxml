@@ -1,11 +1,17 @@
 <block wx:if="{{$taroCompReady}}">
-    <at-tabs compid="{{$compid__5}}">
-        <at-tabs-pane wx:for="{{loopArray2}}" wx:for-item="item" wx:for-index="index" compid="{{item.$compid__4}}">
+    <at-tabs compid="{{$compid__9}}">
+        <at-tabs-pane wx:for="{{loopArray7}}" wx:for-item="item" wx:for-index="index" compid="{{item.$compid__8}}">
             <view class="list">
-                <view class="list-item" wx:for="{{item.$anonymousCallee__1}}" wx:for-item="m" wx:for-index="n">
-                    <at-card compid="{{m.$compid__3}}">
-                        <rich-text nodes="{{m.$loopState__temp4}}"></rich-text>
-                    </at-card>
+                <view class="list-item" wx:key="n" wx:for="{{item.$anonymousCallee__3}}" wx:for-item="m" wx:for-index="n">
+                    <view class="list-item-top">
+                        <view class="left">
+                            <image class="pig-img" src="{{m.$loopState__temp2}}"></image><text class="title">#{{categorys[current].title}}#</text>
+                        </view>
+                        <view class="right"><text class="copy" bindtap="anonymousFunc0" data-e-tap-so="this" data-e-tap-a-a="{{m._$indexKey}}">一键复制</text>
+                        </view>
+                    </view>
+                    <rich-text class="list-item-txt" nodes="{{m.$loopState__temp4}}"></rich-text>
+                    <view class="tips">{{m.$original.author + (m.$original.origin ? '《' + m.$original.origin + '》' : '')}}</view>
                 </view>
             </view>
         </at-tabs-pane>

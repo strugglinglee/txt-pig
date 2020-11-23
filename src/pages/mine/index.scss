@@ -1,0 +1,87 @@
+.mine {
+  box-sizing: border-box;
+  padding: 20px 30px;
+  width: 100vw;
+  height: 100vh;
+  background: #f8f9fa;
+
+  &-top{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+
+    .user-button {
+      background-color: transparent;
+
+      &::after{
+        border:0;
+      }
+    }
+  }
+
+  &-list {
+    margin-top: 60px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 20px;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      justify-content: space-between;
+      padding: 20px;
+      font-size: 28px;
+
+      &::after{
+        border: 0;
+      }
+
+      &:not(:last-child){
+          border-bottom: 2px dashed #eee;
+      }
+
+      .left{
+        display: flex;
+        align-items: center;
+
+        .text {
+          margin-left: 16px;
+        }
+
+        .icon{
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .right{
+        color: #666;
+      }
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    margin-left: 16px;
+
+    &-top {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    &-bottom {
+      font-size: 24px;
+      font-weight: #666;
+    }
+  }
+}

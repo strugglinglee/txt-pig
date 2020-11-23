@@ -1,3 +1,4 @@
+
 .index {
   width: 100vw;
   height: 100vh;
@@ -5,7 +6,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(137, 197, 255);
+  background-image: linear-gradient(-45deg,#fff,#efb336, #7dc5eb, #e8989a, #f6ef37, #db639b);
+	background-size: 400% 400%;
+  animation: gradientBG 5s ease infinite;
+
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
   .btns {
     display: flex;
@@ -14,7 +29,6 @@
     width: 70%;
     margin-top: 20px;
   }
-
 
   .main {
     display: flex;
@@ -26,7 +40,8 @@
     height: 70%;
     padding: 30px;
     border-radius: 20px;
-    background-color: #fff;
+    color: #666;
+    background-color: rgba($color: #fff, $alpha: 0.2);
   }
 
   .img {
@@ -36,6 +51,11 @@
     &:active{
       opacity: 0.8;
     }
+  }
+
+  .main-bottom{
+    width: 100%;
+    text-align: right;
   }
 
   .copy-img {

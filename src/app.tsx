@@ -31,7 +31,8 @@ class App extends Component {
     pages: [
       'pages/index/index',
       'pages/category/index',
-      'pages/mine/index'
+      'pages/mine/index',
+      'pages/about/index'
     ],
     window: {
       backgroundTextStyle: 'dark',
@@ -53,12 +54,12 @@ class App extends Component {
         text: "探索",
         iconPath:"./icons/category.png",
         selectedIconPath:"./icons/category-s.png"
-      }/* , {
+      }, {
         pagePath: "pages/mine/index",
         text: "我的",
         iconPath:"./icons/mine.png",
         selectedIconPath:"./icons/mine-s.png"
-      } */]
+      }]
     }
   }
 

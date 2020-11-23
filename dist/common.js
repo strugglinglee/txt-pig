@@ -1,5 +1,217 @@
 (wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["common"],{
 
+/***/ "./src/icons/mine-s.png":
+/*!******************************!*\
+  !*** ./src/icons/mine-s.png ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ "./src/json/sentence/chp.js":
+/*!**********************************!*\
+  !*** ./src/json/sentence/chp.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var chpList = exports.chpList = [{
+  text: "生活每天都让我灰头土脸，你却有能力让沙漠里开出蔷薇",
+  author: "",
+  origin: ""
+}, {
+  text: "你就是人间水蜜桃，每天都在用脸杀人，持靓行凶。",
+  author: "",
+  origin: ""
+}, {
+  text: "美女是天使吧，哪家医院做的？怎么拿掉翅膀一点痕迹都没有。",
+  author: "",
+  origin: ""
+}, {
+  text: "你才不是什么小人物，你在我这里，是所有的天气和心情。",
+  author: "",
+  origin: ""
+}, {
+  text: "你一抬眼，似华山烟雨间，剑气点过我眉心，溅起春风。",
+  author: "",
+  origin: ""
+}, {
+  text: "你好，我是警察，你因为太可爱被逮捕了，手伸出来给我抓住 。",
+  author: "",
+  origin: ""
+}, {
+  text: "上帝的珠宝掉落一地，所以我看见满天繁星和你的眼睛",
+  author: "",
+  origin: ""
+}, {
+  text: "今天的你也是宇宙独一无二的可爱，与众不同的可爱，表里如一的可爱，迷倒万千少男的可爱，说了再见也还是挥之不去的可爱，世界第一未解之谜，万千科学家用尽一生，所有的科学道理也解释不出的可爱。",
+  author: "",
+  origin: ""
+}, {
+  text: "哥哥好帅 哥哥的腿不是腿 是塞纳河畔的春水 哥哥的背不是背 是保加利亚的玫瑰 哥哥的皮肤是华东平原 水嫩散发着青春 哥哥的眼睛是夜空恒星 闪闪发光勾人魂 哥哥的嗓音是黑洞 我们是光 逃不出声音的引力 哥哥的腹肌是丘陵 一不小心就摔在里面 哥哥的手指是麻醉针 碰一下，便沉醉",
+  author: "",
+  origin: ""
+}, {
+  text: "有完没完，仙女下凡不提早说一声？",
+  author: "",
+  origin: ""
+}, {
+  text: "求你不要再用脸蛋来杀人了，我已经厌倦了在你面前反复去世",
+  author: "",
+  origin: ""
+}, {
+  text: "今天也为你的容颜，跳起了华尔兹",
+  author: "",
+  origin: ""
+}, {
+  text: "谁的童话书又没合好，让公主跑出来了？",
+  author: "",
+  origin: ""
+}, {
+  text: "你好美，太平洋是我为你流的口水。",
+  author: "",
+  origin: ""
+}, {
+  text: "你的容颜应该申请吉尼斯纪录",
+  author: "",
+  origin: ""
+}, {
+  text: "今天也为你的容颜跳起了华尔兹呢！",
+  author: "",
+  origin: ""
+}, {
+  text: "姐妹，稍微有点姿色行了，倒不必美的如此满分。",
+  author: "",
+  origin: ""
+}, {
+  text: "能不能教教我，你是怎么自带仙女滤镜的？",
+  author: "",
+  origin: ""
+}, {
+  text: "我正开着日光灯玩手机，忽然觉得周围都暗了下来，原来是手机里你的美貌在发光！",
+  author: "",
+  origin: ""
+}, {
+  text: "以这样的脸蛋每天生活着是什么感受，真想体验一下！",
+  author: "",
+  origin: ""
+}, {
+  text: "昏迷，为什么会有明星出现在我的朋友圈！",
+  author: "",
+  origin: ""
+}, {
+  text: "你这辈子唯一的遗憾就是亲不到自己的脸！",
+  author: "",
+  origin: ""
+}, {
+  text: "我对你的爱就像拖拉机上山轰轰烈烈",
+  author: "",
+  origin: ""
+}, {
+  text: "上帝的珠宝掉落地，所以我看见满天繁星和你的眼睛～",
+  author: "",
+  origin: ""
+}, {
+  text: "你简直是人类美学的奇迹了，word天！",
+  author: "",
+  origin: ""
+}, {
+  text: "不知道为啥你要隔三差五发张自拍， 我真的无语，要发就天天发，这是在拯救世界知道吗？！",
+  author: "",
+  origin: ""
+}, {
+  text: "给别人条活路吧，别打扮了，美到窒息了。",
+  author: "",
+  origin: ""
+}, {
+  text: "你让我深深地了解了一笑倾城这句话的意义，在看完照片后，我不敢轻易回复，我担心我庸俗不堪的语言会玷污了这世间少有的美感。但我还是回复了，觉得如果不能在如此精彩的照片后面留下自己的伏笔，那将会成为我一生的遗憾。请原谅我的自私!无论用多么华丽的言语修饰都已无法形容这张照片的美感，太美了。",
+  author: "",
+  origin: ""
+}, {
+  text: "你真是个小糯米团子又软又甜啊！！你就是水蜜桃牛奶味的小甜崽吧！",
+  author: "",
+  origin: ""
+}, {
+  text: "你是不同的，唯一的，柔软的，干净的，天空一样的。你是我温暖的手套，冰冷的啤酒，带着阳光味道的衬衫，日复一日的梦想。",
+  author: "",
+  origin: ""
+}, {
+  text: "看小图以为是美女，结果点开大图，呵呵，原来是惊天大美女。",
+  author: "",
+  origin: ""
+}, {
+  text: "这是什么绝世美少女，玩年一遇的颜啊！今天也是仔细品味姐姐盛世美颜的一天。姐姐的眼眸就像珍宝匣里最美的琥珀，是俘虏我心的最美的那颗，这样明媚的脸庞是什么仙子颜啊！是真实存在的珍宝吗？我看姐姐是从拉斐尔画里走出来的自带光环的绝世贵族吧！所以上帝才会更偏心一些",
+  author: "",
+  origin: ""
+}, {
+  text: "大陆颜值的标杆，即使是后脑勺也是惊人的美貌！连风和阳光都会嫉妒吧？好像从清纯漫画走出来的女主角，这样的美貌简直就是人类洗眼液啊！",
+  author: "",
+  origin: ""
+}, {
+  text: "除了故乡，我只为你一人写过月亮",
+  author: "",
+  origin: ""
+}, {
+  text: "想在哥哥鼻梁上滑滑梯 想在哥哥睫毛上荡秋千",
+  author: "",
+  origin: ""
+}, {
+  text: "哥哥好帅 哥哥的腿不是腿 是塞纳河畔的春水 哥哥的背不是背 是保加利亚的玫瑰 哥哥的皮肤是华东平原 水嫩散发着青春 哥哥的眼睛是夜空恒星 闪闪发光勾人魂 哥哥的嗓音是黑洞 我们是光 逃不出声音的引力 哥哥的腹肌是丘陵 一不小心就摔在里面 哥哥的手指是麻醉针 碰一下，便沉醉",
+  author: "",
+  origin: ""
+}, {
+  text: "这张脸在古代可以换边疆300年和平了！",
+  author: "",
+  origin: ""
+}, {
+  text: "不要淋到雨啦，不然你会可爱到发芽。",
+  author: "",
+  origin: ""
+}, {
+  text: "如果不是因为有屏幕隔着，那我这会应该不是被宝贝你的美貌重伤，而是直接死亡吧，这大概就是梦里会出现的可人了，为了你我要早睡！",
+  author: "",
+  origin: ""
+}, {
+  text: "美好的事情都被你用脸做到了。",
+  author: "",
+  origin: ""
+}, {
+  text: "你就是人间水蜜桃，每天都在用脸杀人，持靓行凶。",
+  author: "",
+  origin: ""
+}, {
+  text: "姐妹的腿不是腿，塞纳河畔的春水，姐妹的背不是背，保加利亚的玫瑰，姐妹的腰不是腰，夺命三郎的弯刀，姐妹的嘴不是嘴，安河桥下的清水。",
+  author: "",
+  origin: ""
+}, {
+  text: "我和姐姐去美术馆偷东西，只有我被抓了，因为姐姐本身就是艺术品。",
+  author: "",
+  origin: ""
+}, {
+  text: "姐太美了，恐龙灭绝一定是因为它们手太短没法为你美貌鼓掌。",
+  author: "",
+  origin: ""
+}, {
+  text: "无语 ，童话书忘了关 ，王子跑出来了。",
+  author: "",
+  origin: ""
+}, {
+  text: "这样明媚的脸庞是什么仙子颜啊！是真实存在的珍宝吗？我看姐姐是从拉斐尔画里走出来的自带光环的绝世贵族吧！",
+  author: "",
+  origin: ""
+}];
+
+/***/ }),
+
 /***/ "./src/json/sentence/cute.js":
 /*!***********************************!*\
   !*** ./src/json/sentence/cute.js ***!
@@ -243,7 +455,7 @@ var dgrList = exports.dgrList = [{
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.introList = exports.zyList = exports.wyyList = exports.nightList = exports.loneList = exports.cuteList = exports.dgrList = undefined;
+exports.chpList = exports.introList = exports.zyList = exports.wyyList = exports.nightList = exports.loneList = exports.cuteList = exports.dgrList = undefined;
 
 var _dgr = __webpack_require__(/*! ./dgr */ "./src/json/sentence/dgr.js");
 
@@ -257,8 +469,10 @@ var _wyy = __webpack_require__(/*! ./wyy */ "./src/json/sentence/wyy.js");
 
 var _zy = __webpack_require__(/*! ./zy */ "./src/json/sentence/zy.js");
 
+var _chp = __webpack_require__(/*! ./chp */ "./src/json/sentence/chp.js");
+
 //推荐列表取每个list前15个
-var introList = _dgr.dgrList.slice(0, 15).concat(_cute.cuteList.slice(0, 15), _lone.loneList.slice(0, 15), _night.nightList.slice(0, 15), _wyy.wyyList.slice(0, 20));
+var introList = _dgr.dgrList.slice(0, 15).concat(_cute.cuteList.slice(0, 15), _lone.loneList.slice(0, 15), _night.nightList.slice(0, 15), _wyy.wyyList.slice(0, 20), _chp.chpList.slice(0, 15));
 
 exports.dgrList = _dgr.dgrList;
 exports.cuteList = _cute.cuteList;
@@ -267,6 +481,7 @@ exports.nightList = _night.nightList;
 exports.wyyList = _wyy.wyyList;
 exports.zyList = _zy.zyList;
 exports.introList = introList;
+exports.chpList = _chp.chpList;
 
 /***/ }),
 
@@ -287,6 +502,59 @@ var loneList = exports.loneList = [{
   text: "一切都明明白白/n但我们仍匆匆错过/n因为你相信命运/n因为我怀疑生活。",
   author: "顾城",
   origin: "错过"
+}, {
+
+  text: "你只是一个普通人，你身边的人大多也都艰难辛苦。夜里痛哭还好说，悄悄爬上楼顶又悄悄下来的也不是没有。你得记着别人和你一样脆弱，这样你就不吝惜脸面随时都可献出一个温暖的拥抱。你也得记着你和别人一样坚强，没困住别人的泥沼深渊同样也困不住你。",
+  author: "",
+  origin: ""
+}, {
+  text: "有没有一种可能，这世上是没有爱的",
+  author: "",
+  origin: ""
+}, {
+  text: "但是我想，这个世界里，/n虽然没有最美好的相遇，/n却应该有为了相遇，或者重逢，/n所做的最美好的努力。",
+  author: "勒·克莱齐奥",
+  origin: "流浪的星星"
+}, {
+  text: "成年后的我们，总能演好别人，唯独丢了自己",
+  author: "",
+  origin: ""
+}, {
+  text: "难过的时候，你只能安静的一个人躺在床上，这就是生活",
+  author: "",
+  origin: ""
+}, {
+  text: "我准备好了一年四季，你却只感兴趣别人的春天。",
+  author: "",
+  origin: ""
+}, {
+  text: "很高兴长大了，长大后很久没有很高兴过了。",
+  author: "",
+  origin: ""
+}, {
+  text: "我们怎么就不是小孩子了。",
+  author: "",
+  origin: ""
+}, {
+  text: "你尽管怀疑，我有用毕生回答的勇气。",
+  author: "",
+  origin: ""
+}, {
+  text: "城市里灯火阑珊，我总误以为星辰只有小时候的才会璀璨。/n逢到少有的停电，小半个城市都笼在黑暗，那些多年不曾亲近的星辰，告诉我，孤独才能催生灿烂。/n灯火人间里，你还要你的“”滚烫星河”吗？",
+  author: "",
+  origin: ""
+}, {
+  text: "“我们最遗憾的，莫过于从来没被别人坚定选择过…”/n“可是我们也从来没有坚定的选择过别人。。。”",
+  author: "",
+  origin: ""
+}, {
+  text: "谁不是彷徨又坚定/n孤独又忐忑/n最软的肉裹着最硬的壳/n做着人间普通一个。",
+  author: "",
+  origin: "田螺"
+}, {
+  text: "谁能想到/n经常解开别人心结的人/n心里全是死结",
+  author: "",
+  origin: ""
 }, {
   text: "无论走到哪里都应该记住/n过去都是假的/n回忆是一条没有尽头的路/n一切以往的春天都不复存在/n就连那最坚韧而又狂乱的爱情/n归根结底，也不过是/n一种转瞬即逝的现实。",
   author: "",
@@ -482,6 +750,54 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var wyyList = exports.wyyList = [{
+  text: "到底有多少人到现在还不明白/n人和人之间想要保持长久舒适的关系/n靠的是共性和吸引/n而不是压迫 捆绑 奉承 和一味的付出/n以及道德式的自我感动",
+  author: "网易云热评",
+  origin: "往后余生"
+}, {
+  text: "「失去一个很珍惜的人是怎样的体验?」/n姜思达说过：想有一条永远认得我的海豚 也想让它好好在海里玩一辈子。/n我希望他记得我 永远记得/n也希望他快乐 永远快乐。",
+  author: "网易云热评",
+  origin: "耿"
+}, {
+  text: "小时候问过母亲大人一个很傻的问题/n说鱼身体里那么多刺，就不会痛吗？/n突然觉得这比喻用在人身上也挺适合的，/n那些往事曾经像刺一样扎在身体里，/n时间久了感觉不到痛了，/n大概不是消失了，/n只是它们都已经变成我们的骨头了吧。",
+  author: "网易云热评",
+  origin: "城"
+}, {
+  text: "“有些人比较幸运/n想你可以直接告诉你/n有些人比较不幸/n想你只能转换为听歌 喝酒 走夜路”",
+  author: "网易云热评",
+  origin: "荒岛"
+}, {
+  text: "就算我和你牵手走过多少路,/n为你做过多少疯狂的事,/n给过你多少感动,/n可是我不明白,/n不管我以前为你多么努力,/n分开了以后你想起来的时候还是波澜不惊,/n而还没说话眼眶就湿润的人,/n是我 不是你",
+  author: "网易云热评",
+  origin: "礼物"
+}, {
+  text: "你好像瘦了，/n头发也变长，/n背影陌生到让我觉得，/n见你是上个世纪的事，/n然后你开口叫我名字，/n我就想笑，好像自己刚刚放学，/n只在校门口等了你五分钟而已。",
+  author: "网易云热评",
+  origin: ""
+}, {
+  text: "“自己满身灰暗/n还总想着/n给别人一些光”",
+  author: "网易云热评",
+  origin: "暗里有光"
+}, {
+  text: "有的人坐飞机就能见面/n有的人需要坐时光机才能相见",
+  author: "网易云热评",
+  origin: "爱在夏天"
+}, {
+  text: "“你真的分清了占有欲/n喜欢/n爱和新鲜感吗/n还是不甘心 ”",
+  author: "网易云热评",
+  origin: "少女的祈祷"
+}, {
+  text: "半山腰总是最挤的/n你得去山顶看看啊",
+  author: "网易云热评",
+  origin: "无名之辈"
+}, {
+  text: "水星在自己不近不远的轨迹守护太阳。而我以后也会一直在你身边熙熙攘攘的人群，不再走近，也不会远离。我会努力变得更好，希望你也是。",
+  author: "网易云热评",
+  origin: "水星记"
+}, {
+  text: "朋友或是情人,能走过三个月的已不容易,能坚持六个月的值得珍惜,能相守一年的堪称奇迹，能熬过两年的才叫知己，超过三年的值得记忆，五年后还在的，应请进生命里。十年后依然在的，那就不是朋友了，已经是亲人，是生命的一部分了！",
+  author: "网易云热评",
+  origin: "致每一个走入心里的人"
+}, {
   text: "小时候不理解老人晒太阳，一坐就是半天。长大了才明白，目之所及皆是回忆，心之所想皆是过往，眼之所看皆是遗憾。",
   author: "网易云热评",
   origin: "红莓花儿开"
@@ -619,7 +935,103 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var zyList = exports.zyList = [{
-  text: "你就做自己吧，有点奇怪也没关系，和别人不一样也没关系，我永远站在你这边。",
+  text: "纵然伤心，也不要愁眉不展，因为你不知道是谁会爱上你的笑容",
+  author: "泰戈尔",
+  origin: "飞鸟集"
+}, {
+  text: "我要你知道，在这个世界上总有一个人是等着你的，不管在什么时候，不管在什么地方，反正你知道，总有这么个人。",
+  author: "张爱玲",
+  origin: "半生缘"
+}, {
+  text: "不要因为事与愿违而感到惊讶，因为这个宇宙比你大得多。",
+  author: "阿兰・德波顿",
+  origin: "哲学的慰藉"
+}, {
+  text: "信仰是心中的绿洲，思想的骆驼队是永远走不到的。",
+  author: "纪伯伦",
+  origin: "沙与沫"
+}, {
+  text: "凡事不能让人怀着热情去做的事情，都是不值得的事。",
+  author: "马克斯・韦伯",
+  origin: "学术与政治"
+}, {
+  text: "生活总是让我们遍体鳞伤，可是后来，那些受伤的地方一定会变成我们最强壮的地方。",
+  author: "海明威",
+  origin: "永别了武器"
+}, {
+  text: "把自己立成帆，才能招来风。",
+  author: "尾鱼",
+  origin: "七根凶简"
+}, {
+  text: "回忆这东西若是有气味的话，那就是樟脑的香，甜而稳妥，像记得分明的快乐，甜而怅惘，像忘却了的忧愁。",
+  author: "张爱玲",
+  origin: "更衣记"
+}, {
+  text: "追逐梦想就像走钢索，你不知道自己什么时候会掉下去，你必须非常努力，才能保持平衡。",
+  author: "卢思浩",
+  origin: "愿有人陪你颠沛流离"
+}, {
+  text: "有些路，只能一个人走。",
+  author: "龙应台",
+  origin: "目送"
+}, {
+  text: "失落时悄悄伸出手和风击个掌",
+  author: "",
+  origin: ""
+}, {
+  text: "没有真正快乐的人/n只有比较想的开的人",
+  author: "",
+  origin: ""
+}, {
+  text: "雨会停，天会晴，没有什么会永远糟糕透顶",
+  author: "",
+  origin: ""
+}, {
+  text: "把期待降到最低，所有遇见便都是惊喜。",
+  author: "",
+  origin: ""
+}, {
+  text: "努力追上那个曾经被赋予厚望的自己",
+  author: "",
+  origin: ""
+}, {
+  text: "虽然辛苦/n我还是会选择那种滚烫的人生",
+  author: "",
+  origin: ""
+}, {
+  text: "你生来就值得被爱，这一点你无需质疑",
+  author: "",
+  origin: ""
+}, {
+  text: "要乖/n要长大/n要努力/n要不负众望",
+  author: "",
+  origin: ""
+}, {
+  text: "这个世界泥泞破碎/n却也能开出温柔的花朵",
+  author: "",
+  origin: ""
+}, {
+  text: "保持对生活的热爱把每一天都过得热气腾腾",
+  author: "",
+  origin: ""
+}, {
+  text: "发动态 删动态 不交际熬夜 难过 沉默 听歌",
+  author: "",
+  origin: ""
+}, {
+  text: "目前这个年纪真尴尬，不够成熟，也不够幼稚，没有能力，却有野心",
+  author: "",
+  origin: ""
+}, {
+  text: "我最信任的人教会我不要相信任何人",
+  author: "",
+  origin: ""
+}, {
+  text: "所有人都要让我努力，却没有人能让我快乐",
+  author: "",
+  origin: ""
+}, {
+  text: "能有什么办法 失去和拥有都由不得我",
   author: "",
   origin: ""
 }, {

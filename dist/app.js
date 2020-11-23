@@ -59,7 +59,7 @@ var _App = function (_BaseComponent) {
     var _this = _possibleConstructorReturn(this, (_App.__proto__ || Object.getPrototypeOf(_App)).apply(this, arguments));
 
     _this.config = {
-      pages: ['pages/index/index', 'pages/category/index', 'pages/mine/index'],
+      pages: ['pages/index/index', 'pages/category/index', 'pages/mine/index', 'pages/about/index'],
       window: {
         backgroundTextStyle: 'dark',
         navigationBarBackgroundColor: '#fff',
@@ -79,12 +79,12 @@ var _App = function (_BaseComponent) {
           pagePath: "pages/category/index",
           text: "探索",
           iconPath: "./icons/category.png",
-          selectedIconPath: "./icons/category-s.png" /* , {
-                                                     pagePath: "pages/mine/index",
-                                                     text: "我的",
-                                                     iconPath:"./icons/mine.png",
-                                                     selectedIconPath:"./icons/mine-s.png"
-                                                     } */
+          selectedIconPath: "./icons/category-s.png"
+        }, {
+          pagePath: "pages/mine/index",
+          text: "我的",
+          iconPath: "./icons/mine.png",
+          selectedIconPath: "./icons/mine-s.png"
         }]
       }
     };

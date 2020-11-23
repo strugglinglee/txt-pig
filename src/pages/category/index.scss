@@ -1,10 +1,71 @@
 @import "~taro-ui/dist/style/components/tabs.scss";
-@import "~taro-ui/dist/style/components/card.scss";
-
+$color-primary:rgb(27, 185, 78);
 
 .list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+
+  &-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .left{
+      display: flex;
+      align-items: center;
+    }
+
+    .pig-img{
+      width: 50px;
+      height: 50px;
+    }
+
+    .title {
+      color: $color-primary;
+      margin-left: 16px;
+    }
+
+    .copy {
+      color: #777;
+      font-size: 24px;
+    }
+  }
+
+  &:not(:last-child){
+      margin-bottom: 20px;
+      border-bottom: 2px dashed #eee;
+  }
+
+  .tips {
+    margin-top: 10px;
+    color: #666;
+    font-size: 24px;
+  }
+}
+
+.at-tabs__header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.list {
+  margin: 40px;
   margin-top: 20px;
-/*     &:not(:last-child){
-      margin-bottom: 20px !important;
-    } */
+  font-size: 28px;
+  color: #333;
+}
+
+.at-tabs__body{
+  margin-top: 88px;
+}
+
+.at-tabs__item--active {
+  color: $color-primary;
+}
+
+.at-tabs__item-underline{
+  background-color: $color-primary;
 }

@@ -109,6 +109,13 @@ export default class Index extends Component<IProps, PageState> {
     })
   }
 
+  onShareAppMessage() {
+    return {
+        title: `欢迎进入文案猪猪的神奇世界`,
+        path: `/pages/index/index`
+    };
+  }
+
   render () {
     const {activeSentence,preList}=this.state
     return (

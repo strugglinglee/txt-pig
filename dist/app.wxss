@@ -10959,3 +10959,5 @@
         margin-top: 0; }
 .at-toast .toast-body.at-toast__body--custom-image, .at-toast .toast-body.at-toast__body--success, .at-toast .toast-body.at-toast__body--error, .at-toast .toast-body.at-toast__body--loading {
       padding-bottom: 17rpx; }
+#app {
+  font-size: 28rpx; }
