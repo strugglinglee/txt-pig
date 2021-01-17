@@ -1,6 +1,6 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="about">
-        <at-noticebar compid="{{$compid__3}}">文案猪猪正在成长阶段，欢迎各位热爱文字，需要文字的主子猪们热情投稿！</at-noticebar>
+        <at-noticebar compid="{{$compid__5}}">文案猪猪正在成长阶段，欢迎各位热爱文字，需要文字的主子猪们热情投稿！</at-noticebar>
         <view class="container">
             <view>
                 <image class="avatar" src="{{anonymousState__temp}}"></image>

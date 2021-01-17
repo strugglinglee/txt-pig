@@ -50,7 +50,7 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "$compid__3"], _this.config = {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "$compid__5"], _this.config = {
       navigationBarTitleText: '关于一只可爱猪'
     }, _this.customComponents = ["AtNoticebar"], _temp), _possibleConstructorReturn(_this, _ret);
   }
@@ -93,20 +93,20 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__3"),
+      var _genCompid = (0, _taroWeapp.genCompid)(__prefix + "$compid__5"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__3 = _genCompid2[0],
-          $compid__3 = _genCompid2[1];
+          $prevCompid__5 = _genCompid2[0],
+          $compid__5 = _genCompid2[1];
 
       var anonymousState__temp = __webpack_require__(/*! ../../icons/mine-s.png */ "./src/icons/mine-s.png");
 
       _taroWeapp.propsManager.set({
         "icon": "volume-plus",
         "marquee": true
-      }, $compid__3, $prevCompid__3);
+      }, $compid__5, $prevCompid__5);
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
-        $compid__3: $compid__3
+        $compid__5: $compid__5
       });
       return this.__state;
     }

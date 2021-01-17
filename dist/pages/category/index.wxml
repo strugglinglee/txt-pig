@@ -1,8 +1,8 @@
 <block wx:if="{{$taroCompReady}}">
-    <at-tabs compid="{{$compid__9}}">
-        <at-tabs-pane wx:for="{{loopArray7}}" wx:for-item="item" wx:for-index="index" compid="{{item.$compid__8}}">
+    <at-tabs compid="{{$compid__164}}">
+        <at-tabs-pane compid="{{$compid__165}}">
             <view class="list">
-                <view class="list-item" wx:key="n" wx:for="{{item.$anonymousCallee__3}}" wx:for-item="m" wx:for-index="n">
+                <view class="list-item" wx:key="n" wx:for="{{loopArray85}}" wx:for-item="m" wx:for-index="n">
                     <view class="list-item-top">
                         <view class="left">
                             <image class="pig-img" src="{{m.$loopState__temp2}}"></image><text class="title">#{{categorys[current].title}}#</text>

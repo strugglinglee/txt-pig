@@ -24,7 +24,7 @@
 </block>
 </view>
 <view class="mine-list">
-    <button open-type="{{item.$original.openType}}" class="mine-list-item" bindtap="anonymousFunc0" wx:for="{{loopArray4}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
+    <button open-type="{{item.$original.openType}}" class="mine-list-item" bindtap="anonymousFunc0" wx:for="{{loopArray3}}" wx:for-item="item" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{item._$indexKey}}">
         <view class="left">
             <image class="icon" src="{{item.$loopState__temp3}}"></image><text class="text">{{item.$original.text}}</text>
         </view>

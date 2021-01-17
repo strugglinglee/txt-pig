@@ -48,7 +48,7 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "loopArray4", "userInfo", "jumpList"], _this.config = {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "loopArray3", "userInfo", "jumpList"], _this.config = {
       navigationBarTitleText: '我的'
     }, _this.anonymousFunc0Map = {}, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
@@ -172,12 +172,12 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
 
       var anonymousState__temp = __webpack_require__(/*! ../../icons/mine-s.png */ "./src/icons/mine-s.png");
 
-      var loopArray4 = jumpList.map(function (item, index) {
+      var loopArray3 = jumpList.map(function (item, index) {
         item = {
           $original: (0, _taroWeapp.internal_get_original)(item)
         };
 
-        var _$indexKey = "fzzzz" + index;
+        var _$indexKey = "czzzz" + index;
 
         _this3.anonymousFunc0Map[_$indexKey] = function () {
           _this3.handleCmd(item.$original.type);
@@ -193,7 +193,7 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       });
       Object.assign(this.__state, {
         anonymousState__temp: anonymousState__temp,
-        loopArray4: loopArray4
+        loopArray3: loopArray3
       });
       return this.__state;
     }
